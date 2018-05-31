@@ -12,6 +12,7 @@ public class PlayerController : NetworkBehaviour
 
 		var x = Input.GetAxis("Horizontal") * Time.deltaTime * 150.0f;
 		var z = Input.GetAxis("Vertical") * Time.deltaTime * 3.0f;
+		Debug.Log("test");
 		
 
 		transform.Rotate(0, x, 0);
